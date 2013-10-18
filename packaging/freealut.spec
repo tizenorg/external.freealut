@@ -33,6 +33,8 @@ make %{?jobs:-j%jobs}
 
 %install
 rm -rf %{buildroot}
+mkdir -p %{buildroot}/usr/share/license
+cp COPYING %{buildroot}/usr/share/license/%{name}
 %make_install
 
 %post -p /sbin/ldconfig
@@ -48,6 +50,7 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %{_bindir}/freealut-config
 %{_libdir}/libalut.so.*
+/usr/share/license/%{name}
 
 
 %files devel
