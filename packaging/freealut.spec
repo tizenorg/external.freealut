@@ -1,9 +1,10 @@
+#sbs-git:slp/pkgs/f/freealut freealut 1.1.0 23c67d3e0917166b3ed62c65a8415bcac0380310
 Name:       freealut
 Summary:    OpenAL User Toolkit library
-Version:    1.1.0
-Release:    2
+Version: 1.1.0
+Release:    3
 Group:      TO_BE/FILLED_IN
-License:    LGPL-2.0+
+License:    TO BE FILLED IN
 Source0:    %{name}-%{version}.tar.gz
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
