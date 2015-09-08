@@ -28,7 +28,7 @@ echo_libs=no
 
 usage()
 {
-  cat <<EOF 1>&2
+  /bin/cat <<EOF 1>&2
 Usage: freealut-config [OPTIONS]
 Options:
   --prefix[=DIR]       print/set default prefix
